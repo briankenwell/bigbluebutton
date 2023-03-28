@@ -12,11 +12,11 @@ audio_offset: 0
 include_deskshare: true
 
 # For PRODUCTION
-publish_dir: /var/bigbluebutton/published/presentation
+#publish_dir: /var/bigbluebutton/published/presentation
 video_formats:
 - webm
-# - mp4
+- mp4
 
 # For DEVELOPMENT
-#publish_dir: /home/ubuntu/temp/published/presentation
+publish_dir: ~/temp/published/presentation
 

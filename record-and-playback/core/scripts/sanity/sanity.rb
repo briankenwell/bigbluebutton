@@ -18,7 +18,12 @@
 # with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 #
 
-require File.expand_path('../../../lib/recordandplayback', __FILE__)
+# For DEVELOPMENT
+# Allows us to run the script manually
+require File.expand_path('../../../../core/lib/recordandplayback', __FILE__)
+
+# For PRODUCTION
+#require File.expand_path('../../../lib/recordandplayback', __FILE__)
 require 'logger'
 require 'optimist'
 require 'yaml'

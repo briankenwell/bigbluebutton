@@ -22,10 +22,10 @@
 
 # For DEVELOPMENT
 # Allows us to run the script manually
-# require File.expand_path('../../../../core/lib/recordandplayback', __FILE__)
+require File.expand_path('../../../../core/lib/recordandplayback', __FILE__)
 
 # For PRODUCTION
-require File.expand_path('../../../lib/recordandplayback', __FILE__)
+#require File.expand_path('../../../lib/recordandplayback', __FILE__)
 
 require 'rubygems'
 require 'optimist'
